@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "273137957704",
+    "firebase_url": "https://devmobile-e6f14.firebaseio.com",
+    "project_id": "devmobile-e6f14",
+    "storage_bucket": "devmobile-e6f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273137957704:android:073183f8d1886ee7",
+        "android_client_info": {
+          "package_name": "com.example.moura.devmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273137957704-cuok7ji7bfjjiaj6pa6cp79d7doo2anu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moura.devmobile",
+            "certificate_hash": "6c8f3e90491e75d4ea81f812411f77e002169979"
+          }
+        },
+        {
+          "client_id": "273137957704-5ne40ppph2grf7v24o6i7p342ea5o49k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCjYe6_vHAHIgFa51I_sJxn29BfirwXc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273137957704-5ne40ppph2grf7v24o6i7p342ea5o49k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

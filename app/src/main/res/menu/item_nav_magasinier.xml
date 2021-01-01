@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homeMagasinier"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/AccountMagasinier"
+        android:icon="@drawable/person"
+        android:title="person"
+
+        />
+
+    <item
+        android:id="@+id/notificationMagasinier"
+        android:icon="@drawable/notification"
+        android:title="notification"/>
+
+
+
+
+
+
+</menu>

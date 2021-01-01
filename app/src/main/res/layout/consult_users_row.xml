@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+    card_view:cardBackgroundColor="#3385F0"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true" >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:background="?android:attr/selectableItemBackground"
+       android:clickable="true"
+       android:focusable="true"
+       android:orientation="vertical"
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:paddingTop="@dimen/row_padding_vertical"
+       android:paddingRight="@dimen/activity_horizontal_margin"
+       android:paddingBottom="@dimen/row_padding_vertical"
+       android:id="@+id/layout_for_users_row">
+
+      <TextView
+          android:id="@+id/emailConsultUser"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Email"
+          android:textStyle="bold"
+          android:textSize="20dp"
+          android:textColor="@color/title"/>
+      <TextView
+          android:id="@+id/passwordConsultUser"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Password"
+          android:textColor="@color/title"
+          android:layout_below="@id/emailConsultUser"
+          android:textSize="16dp"/>
+
+
+      <TextView
+          android:id="@+id/functionConsultUser"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="40dp"
+          android:text="Function"
+          android:textColor="@color/year" />
+
+      <CheckBox
+          android:id="@+id/user_checked"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="58dp" />
+
+
+   </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser">
+
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <!-- TODO: Update blank fragment layout -->
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:background="@color/SkyBlue"
+           />
+
+      <EditText
+          android:id="@+id/emailRegister"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="50dp"
+          android:ems="10"
+          android:hint="   Email"
+          android:inputType="textEmailAddress"
+          android:background="@drawable/rounded_edittext"/>
+
+      <EditText
+          android:id="@+id/passwordRegister"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignTop="@id/emailRegister"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="50dp"
+          android:hint="   Password"
+          android:inputType="textPassword"
+          android:background="@drawable/rounded_edittext"/>
+
+      <EditText
+          android:id="@+id/nameRegister"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_alignTop="@+id/passwordRegister"
+          android:layout_alignParentStart="true"
+          android:inputType="textPersonName"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="50dp"
+          android:hint="   First Name"
+          android:background="@drawable/rounded_edittext"/>
+
+      <EditText
+          android:id="@+id/lastName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_alignTop="@+id/nameRegister"
+          android:layout_alignParentStart="true"
+          android:inputType="textPersonName"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="50dp"
+          android:hint="   Last Name"
+          android:background="@drawable/rounded_edittext"/>
+      <EditText
+          android:id="@+id/TelRegister"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_alignTop="@+id/lastName"
+          android:layout_alignParentStart="true"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="50dp"
+          android:inputType="textPersonName"
+          android:hint="   Tel"
+          android:background="@drawable/rounded_edittext"/>
+      <EditText
+          android:id="@+id/address"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_alignTop="@+id/TelRegister"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="50dp"
+          android:layout_alignParentStart="true"
+          android:inputType="textPersonName"
+          android:hint="   Address"
+          android:background="@drawable/rounded_edittext"/>
+
+
+      <Button
+          android:id="@+id/addregister"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+
+
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="31dp"
+          android:background="@drawable/button_rounded"
+          android:textColor="@color/coloWhite"
+          android:text="Add" />
+
+      <RadioGroup
+          android:id="@+id/radioGroupeRegister"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="127dp">
+
+          <RadioButton
+              android:id="@+id/vendeurRegister"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Vendeur" />
+
+          <RadioButton
+              android:id="@+id/radioButton3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignStart="@+id/vendeurRegister"
+              android:layout_weight="1"
+              android:text="Magasinier" />
+
+
+      </RadioGroup>
+
+  </RelativeLayout>
+
+
+
+</FrameLayout>
